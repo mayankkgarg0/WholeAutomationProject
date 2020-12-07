@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create RFP Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="224.518">
+  <properties />
+  
+  
+            <testcase name="createRFP" time="224.518" classname="MedicalLOCTestCases.RFPToPresentationCreation.CreateRFP" />
+      
+</testsuite>

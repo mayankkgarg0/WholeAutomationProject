@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create Vendor Experience Task 2"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.422">
+  <properties />
+  
+  
+            <testcase name="obtainUtilizationVersusPremiumReport" time="102.422" classname="DentalLOCTestCases.CreateVendorExperience.ObtainUtilizationVersusPremiumReport" />
+      
+</testsuite>

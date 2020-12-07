@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create MarketingCensus Request task 3"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="86.153">
+  <properties />
+  
+  
+            <testcase name="obtainMarketingCensusInfo" time="86.153" classname="DentalLOCTestCases.CreateMarketingCensusRequest.ObtainMarketingCensusInfo" />
+      
+</testsuite>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Vendor Tab Suite"  >
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="Listeners.CustomListeners" />
+	</listeners>
+
+	  <test name="Login Test"  >
+		<classes>
+			<class name="TestCases.LoginTestProcessAssociate" />
+		</classes>
+	</test> 
+	
+   <!--          <test name="Create RFP Test" >
+		<classes>
+			<class name="DentalLOCTestCases.RFPToPresentationCreation.CreateRFP" />
+		</classes> 
+	</test> 
+	
+	<test name="Rfp Data Request">
+		<classes>
+			<class name="DentalLOCTestCases.RFPToPresentationCreation.RfpDataRequestConfirmation" />
+		</classes> 
+	</test>	  
+	
+     <test name="Create Vendor Experience Task 1">
+		<classes>
+			<class name="DentalLOCTestCases.CreateVendorExperience.CreateRequestforUtilizationVersusPremiumReport" />
+		</classes> 
+	</test>	  
+	
+	<test name="Create Vendor Experience Task 2">
+		<classes>
+			<class name="DentalLOCTestCases.CreateVendorExperience.ObtainUtilizationVersusPremiumReport" />
+		</classes> 
+	</test>	
+	
+	<test name="Create Vendor Experience Task 3">
+		<classes>
+			<class name="DentalLOCTestCases.CreateVendorExperience.ReviewAndSaveUtilizationVersusPremiumReport" />
+		</classes> 
+	</test>	
+	
+	<test name="Create Vendor Experience Task 4">
+		<classes>
+			<class name="DentalLOCTestCases.CreateVendorExperience.SelectModifyReportsforRFP" />
+		</classes> 
+	</test>	
+	
+  	  <test name="Create IncumbentVendor Disruption Report task 1">
+		<classes>
+			<class name="DentalLOCTestCases.CreateIncumbentVendorDisruptionReport.CreateRequestForDentalDisruptionReport" />
+		</classes> 
+	</test>	 
+	<test name="Create IncumbentVendor Disruption Report task 2">
+		<classes>
+			<class name="DentalLOCTestCases.CreateIncumbentVendorDisruptionReport.ObtainDisruptionReport" />
+		</classes> 
+	</test>	
+	
+	<test name="Create IncumbentVendor Disruption Report task 3">
+		<classes>
+			<class name="DentalLOCTestCases.CreateIncumbentVendorDisruptionReport.ValidateandScrubIncumbentDisruptionReport" />
+		</classes> 
+	</test>	  
+	
+	    <test name="Create MarketingCensus Request task 1">
+		<classes>
+			<class name="DentalLOCTestCases.CreateMarketingCensusRequest.CreateMarketingCensusRequest" />
+		</classes> 
+	</test>	 
+	
+	 <test name="Create MarketingCensus Request task 2">
+		<classes>
+			<class name="DentalLOCTestCases.CreateMarketingCensusRequest.PeerReviewMarketingCensusRequest" />
+		</classes> 
+	</test>	 
+	
+	<test name="Create MarketingCensus Request task 3">
+		<classes>
+			<class name="DentalLOCTestCases.CreateMarketingCensusRequest.ObtainMarketingCensusInfo" />
+		</classes> 
+	</test>	
+	
+	<test name="Create MarketingCensus Request task 4">
+		<classes>
+			<class name="DentalLOCTestCases.CreateMarketingCensusRequest.ValidateAndScrubCensus" />
+		</classes> 
+	</test>	  
+	
+	<test name="Create MarketingCensus Request task 5">
+		<classes>
+			<class name="DentalLOCTestCases.CreateMarketingCensusRequest.InternalReviewMarketingCensusData" />
+		</classes> 
+	</test>	  
+	
+	<test name="Client MarketingPresentation Decisions task 1">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.ScheduleClientMarketingMeeting" />
+		</classes> 
+	</test>
+	
+	<test name="Client MarketingPresentation Decisions task 2">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.DocumentClientMeetingNotes" />
+		</classes> 
+	</test>		
+	
+	<test name="Client MarketingPresentation Decisions task Adhoc">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.ProcessAssociateToUpdateClientPresentatiom_ADHOC" />
+		</classes> 
+	</test>	
+	
+	<test name="Client MarketingPresentation Decisions task 3">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.MarketingMeetingfollowupsDental" />
+		</classes> 
+	</test>
+	
+  	<test name="Client MarketingPresentation Decisions task 4">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.ReviewMarketingMeetingfollowupsDental" />
+		</classes> 
+	</test> 	
+	
+	<test name="Client MarketingPresentation Decisions task 5">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.UpdateMarketingPresentationfollowupsDental" />
+		</classes> 
+	</test> 
+	
+	<test name="Client MarketingPresentation Decisions task 6">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.TeamPeerreviewMarketingpresentationDental" />
+		</classes> 
+	</test> 
+	
+	<test name="Client MarketingPresentation Decisions task 7">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.PeerReviewMarketingPresentationDental" />
+		</classes> 
+	</test> 
+	
+	<test name="Client MarketingPresentation Decisions task 8">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.ObtainClientDecisionsDental" />
+		</classes> 
+	</test>    
+	
+	  <test name="Client MarketingPresentation Decisions task 9">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.SelectVendorSoldProposal" />
+		</classes> 
+	</test> 
+	
+	 
+	
+	<test name="Client MarketingPresentation Decisions task 10">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.CreatevendormarketingnotificationsclientsdecisionsDental" />
+		</classes> 
+	</test> -->
+	
+	<test name="Client MarketingPresentation Decisions task 11">
+		<classes>
+			<class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.PeerReviewVendorMarketingNotificationsClientDecisionsDental" />
+		</classes> 
+	</test>
+	
+	<!-- ////////////////////////////RenewalDental LOC////////////////////////////////-->
+ 	
+<!--    	<test name="Renewal RfpDataRequest Confirmation">
+		<classes>
+			<class name="DentalLOCTestCases.RenewalToPresentationCreation.RenewalRfpDataRequestConfirmation" />
+		</classes> 
+	</test>	
+	
+	<test name="Create Renewal Census Request">
+		<classes>
+			<class name="DentalLOCTestCases.RenewalCreateCensusRequest.CreateRenewalCensusRequest" />
+		</classes> 
+	</test>	  
+	
+	<test name="Renewal Create Request Vendor Disruption Report">
+		<classes>
+			<class name="DentalLOCTestCases.RenewalCreateRequestVendorDisruptionReport.RenewalCreateRequestVendorDisruptionReport" />
+		</classes> 
+	</test>	
+	
+	<test name="Renewal Self Funded Projection">
+		<classes>
+			<class name="DentalLOCTestCases.RenewalSelfFundedProjection.RenewalSelfFundedProjection" />
+		</classes> 
+	</test>		  -->
+
+	
+	
+
+</suite>  <!-- Suite -->

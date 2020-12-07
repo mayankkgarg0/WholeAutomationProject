@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create MarketingCensus Request task 5"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="111.757">
+  <properties />
+  
+  
+            <testcase name="internalReviewMarketingCensusDatat" time="111.757" classname="DentalLOCTestCases.CreateMarketingCensusRequest.InternalReviewMarketingCensusData" />
+      
+</testsuite>

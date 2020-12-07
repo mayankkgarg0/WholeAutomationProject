@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Client MarketingPresentation Decisions task 7"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="98.837">
+  <properties />
+  
+  
+            <testcase name="documentClientMeetingNotes" time="98.837" classname="DentalLOCTestCases.ClientMarketingPresentationDecisions.PeerReviewMarketingPresentationDental" />
+      
+</testsuite>

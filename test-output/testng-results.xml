@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Tue_Nov_24_18_38_31_IST_2020.jpg>Click To See Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Tue_Nov_24_18_38_31_IST_2020.jpg><img src=Tue_Nov_24_18_38_31_IST_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Tue_Nov_24_18_40_22_IST_2020.jpg>Click To See Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Tue_Nov_24_18_40_22_IST_2020.jpg><img src=Tue_Nov_24_18_40_22_IST_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Vendor Tab Suite" duration-ms="129012" started-at="2020-11-24T18:38:14 IST" finished-at="2020-11-24T18:40:23 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="17806" started-at="2020-11-24T18:38:14 IST" finished-at="2020-11-24T18:38:32 IST">
+      <class name="TestCases.LoginTestProcessAssociate">
+        <test-method status="PASS" signature="loginToLockTon()[pri:0, instance:TestCases.LoginTestProcessAssociate@44be0077]" name="loginToLockTon" duration-ms="16632" started-at="2020-11-24T18:38:14 IST" finished-at="2020-11-24T18:38:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Tue_Nov_24_18_38_31_IST_2020.jpg>Click To See Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Tue_Nov_24_18_38_31_IST_2020.jpg><img src=Tue_Nov_24_18_38_31_IST_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToLockTon -->
+      </class> <!-- TestCases.LoginTestProcessAssociate -->
+    </test> <!-- Login Test -->
+    <test name="Client MarketingPresentation Decisions task 11" duration-ms="111172" started-at="2020-11-24T18:38:32 IST" finished-at="2020-11-24T18:40:23 IST">
+      <class name="DentalLOCTestCases.ClientMarketingPresentationDecisions.PeerReviewVendorMarketingNotificationsClientDecisionsDental">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DentalLOCTestCases.ClientMarketingPresentationDecisions.PeerReviewVendorMarketingNotificationsClientDecisionsDental@5456afaa]" name="setUp" is-config="true" duration-ms="44716" started-at="2020-11-24T18:37:29 IST" finished-at="2020-11-24T18:38:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="documentClientMeetingNotes(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DentalLOCTestCases.ClientMarketingPresentationDecisions.PeerReviewVendorMarketingNotificationsClientDecisionsDental@5456afaa]" name="documentClientMeetingNotes" duration-ms="110520" started-at="2020-11-24T18:38:32 IST" data-provider="getData" finished-at="2020-11-24T18:40:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nefab Packaging, Inc. , LTD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Client Marketing Presentation and Decisions]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Purpose-Schedule client Marketing Meeting]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Add Notes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Client]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ADHOC TASK]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dental: Client Marketing Presentation and Decisions - ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Task Description Notes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Sue Cugno]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Sue Cugno]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[20-11-2020]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[UpadteComments]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[CIGNA]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Fully Insured]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[General Network]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Current Eligibility]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Option 1]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Select All]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Select All]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Core]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Lorem Ipsum]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Earning less than $35k]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[Earning more than $35k]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Wellness]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[Electronic]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[Omar - Omar.Garza@cigna.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Tue_Nov_24_18_40_22_IST_2020.jpg>Click To See Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Tue_Nov_24_18_40_22_IST_2020.jpg><img src=Tue_Nov_24_18_40_22_IST_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- documentClientMeetingNotes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DentalLOCTestCases.ClientMarketingPresentationDecisions.PeerReviewVendorMarketingNotificationsClientDecisionsDental@5456afaa]" name="tearDown" is-config="true" duration-ms="3800" started-at="2020-11-24T18:40:23 IST" finished-at="2020-11-24T18:40:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DentalLOCTestCases.ClientMarketingPresentationDecisions.PeerReviewVendorMarketingNotificationsClientDecisionsDental -->
+    </test> <!-- Client MarketingPresentation Decisions task 11 -->
+  </suite> <!-- Vendor Tab Suite -->
+</testng-results>

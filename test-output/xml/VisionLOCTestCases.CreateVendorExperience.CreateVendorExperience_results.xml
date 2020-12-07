@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create Vendor Experience"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="336.787">
+  <properties />
+  
+  
+            <testcase name="createVendorExperience" time="336.787" classname="VisionLOCTestCases.CreateVendorExperience.CreateVendorExperience" />
+      
+</testsuite>

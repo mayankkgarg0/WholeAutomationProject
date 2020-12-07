@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create IncumbentVendor Disruption Report"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="293.421">
+  <properties />
+  
+  
+            <testcase name="createIncumbentVendorDisruption" time="293.421" classname="DentalLOCTestCases.CreateIncumbentVendorDisruptionReport.CreateIncumbentVendorDisruptionReport" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create VendorExp"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="340.369">
+  <properties />
+  
+  
+            <testcase name="createVendorExperience" time="340.369" classname="DentalLOCTestCases.CreateVendorExperience" />
+      
+</testsuite>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Vendor Tab Suite"  >
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="Listeners.CustomListeners" />
+	</listeners>
+
+ 	  <test name="Login Test"  >
+		<classes>
+			<class name="TestCases.LoginTestProcessAssociate" />
+		</classes>
+	</test> 
+	
+   <!--            <test name="Create RFP Test" >
+		<classes>
+			<class name="VisionLOCTestCases.RFPToPresentationCreation.CreateRFP" />
+		</classes> 
+	</test> 
+	
+   	<test name="Rfp Data Request">
+		<classes>
+			<class name="VisionLOCTestCases.RFPToPresentationCreation.RfpDataRequestConfirmation" />
+		</classes> 
+	</test>	  
+	
+	<test name="Create Vendor Experience">
+		<classes>
+			<class name="VisionLOCTestCases.CreateVendorExperience.CreateVendorExperience" />
+		</classes> 
+	</test>	 
+	
+	<test name="Create IncumbentVendor Disruption Report">
+		<classes>
+			<class name="VisionLOCTestCases.CreateIncumbentVendorDisruptionReport.CreateIncumbentVendorDisruptionReport" />
+		</classes> 
+	 	 </test>  
+	
+	<test name="Create MarketingCensus Request">
+		<classes>
+			<class name="VisionLOCTestCases.CreateMarketingCensusRequest.CreateMarketingCensusRequest" />
+		</classes> 
+	</test>	  -->  
+	
+<!-- ////////////////////////////RenewalDental LOC////////////////////////////////-->
+ 	
+ <!--     <test name="Renewal RfpDataRequest Confirmation">
+		<classes>
+			<class name="VisionLOCTestCases.RenewalToPresentationCreation.RenewalRfpDataRequestConfirmation" />
+		</classes> 
+	</test>	 
+	
+	 <test name="Create Renewal Census Request">
+		<classes>
+			<class name="VisionLOCTestCases.RenewalCreateCensusRequest.CreateRenewalCensusRequest" />
+		</classes> 
+	</test>	
+	
+	<test name="Renewal Create Request Vendor Disruption Report">
+		<classes>
+			<class name="VisionLOCTestCases.RenewalCreateRequestVendorDisruptionReport.RenewalCreateRequestVendorDisruptionReport" />
+		</classes> 
+	</test>	-->
+	
+	<test name="Renewal Self Funded Projection">
+		<classes>
+			<class name="VisionLOCTestCases.RenewalSelfFundedProjection.RenewalSelfFundedProjection" />
+		</classes> 
+	</test>		
+ 
+
+	
+	
+
+</suite>  <!-- Suite -->

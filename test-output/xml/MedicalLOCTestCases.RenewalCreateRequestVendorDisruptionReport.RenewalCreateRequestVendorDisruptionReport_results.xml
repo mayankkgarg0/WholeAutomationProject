@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Renewal Create Request Vendor Disruption Report"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="281.657">
+  <properties />
+  
+  
+            <testcase name="renewalCreateRequestVendorDisruptionReport" time="281.657" classname="MedicalLOCTestCases.RenewalCreateRequestVendorDisruptionReport.RenewalCreateRequestVendorDisruptionReport" />
+      
+</testsuite>
